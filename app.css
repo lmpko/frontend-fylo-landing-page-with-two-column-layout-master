@@ -12,8 +12,166 @@
 body{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 } 
 
 h1,h2,h3,h4,h5,h6,nav {
     font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: .3125rem .9375rem;
+
+}
+
+nav img{
+    width: 25%;
+    height: 25%;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: .3125rem;
+}
+
+section{
+    padding: .3125rem .9375rem;
+    text-align: center;
+}
+
+.bg{
+    width: 100%;
+    padding-top: 3.125rem;
+}
+
+.illustration{
+    max-width: 100%;
+    padding-top: 6.25rem;
+}
+
+.productive-section{
+    background-color: #f8f8fe;
+}
+
+.form-section input, .form-section button{
+    padding: .625rem 0;
+    margin: .625rem 0;
+    width: 100%;
+    border-radius: .3125rem;
+}
+
+.form-section input{
+    border: .0625rem  solid var(--primary-color);
+}
+
+.form-section input::placeholder{
+    padding-left: .9375rem;
+}
+
+.form-section button{
+    background-color: var(--tertiary-color);
+    color: var(--fifthary-color);
+    border: none;
+}
+
+.container h1{
+    font-size: 1rem;
+}
+
+.container p{
+    text-align: left;
+}
+
+.fylo-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5625rem ;
+}
+
+.fylo-link a{
+    color: var(--fouthary-color); 
+    border-bottom: .125rem solid var(--fouthary-color);
+    padding: .3125rem 0;
+}
+
+.fylo-link img{
+    padding: .5rem  .3125rem;
+    border-bottom: .125rem  solid var(--fouthary-color);
+}
+
+.card{
+    padding: 1.875rem;
+    margin: 3.125rem  0;
+    text-align: left;
+    background-color: antiquewhite;
+    border-radius: .3125rem;
+}
+
+
+.personal-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: .9375rem;
+}
+
+.personal-info img{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+}
+
+.personal-info h2,p{
+    font-size: 1rem;
+    margin: 0;
+}
+
+.personal-texts{
+    margin: 0 .625rem;
+}
+
+.early-access-section{
+    background-color: var(--secondary-color);
+    color: var(--fifthary-color);
+    padding: 1.875rem;
+}
+
+footer{
+    background-color: var(--primary-color);
+    color: var(--fifthary-color);
+    width: 100%;
+}
+
+footer a{
+    color: var(--fifthary-color);
+}
+
+footer ul{
+    list-style: none;
+    margin: 1.25rem 0;
+}
+
+footer ul li{
+    padding: .625rem 0;
+}
+
+footer div{
+    padding: 3.125rem;
 }
