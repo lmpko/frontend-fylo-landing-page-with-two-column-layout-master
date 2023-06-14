@@ -232,8 +232,13 @@ button{
 
     }
 
+    .early-access-section h1{ 
+        margin-top: 0;
+
+    }
+
     .illustration{
-        padding: 0;
+        padding: 0 0 0 3.125rem;
         max-width: 50%;
     }
 
@@ -296,5 +301,13 @@ button{
     }
     .grid-section .socials{
         grid-area: socials;
+    }
+
+    h1, .container h1{
+        font-size: 2rem;
+    }
+
+    .container p{
+        padding-top: .9375rem ;
     }
 }
