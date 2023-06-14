@@ -203,6 +203,23 @@ button{
 }
 
 @media screen and (min-width: 48rem){
+
+    section{
+        padding: 0 3.125rem;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav img, nav ul{
+        padding: 1.5625rem 3.125rem;
+    }
+
+    nav img{
+        width: 6.25rem;
+    }
+
     .overview, .productive-section{
         display: flex;
         flex-direction: row-reverse;
