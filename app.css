@@ -310,4 +310,8 @@ button{
     .container p{
         padding-top: .9375rem ;
     }
+
+    .socials a{
+        height: 1.25rem;
+    }
 }
