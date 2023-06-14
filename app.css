@@ -201,3 +201,83 @@ footer div{
 button{
     cursor: pointer;
 }
+
+@media screen and (min-width: 48rem){
+    .overview, .productive-section{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        text-align: left;
+    }
+
+    .early-access-section{
+        display: flex;
+
+    }
+
+    .illustration{
+        padding: 0;
+        max-width: 50%;
+    }
+
+    .sec-1{
+       display: flex;
+    }
+
+    .sec-1 button{
+        margin-left: .9375rem  ;
+     }
+
+    .sec-2{
+        width: 50%;
+
+    }
+
+    .sec-2 button{
+        width: 50%;
+    }
+
+    .early-access-section{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    .early-access-section div{
+        padding: 3.75rem 2.5rem ;
+    }
+
+    .fylo-link{
+        justify-content: flex-start;
+    }
+
+    .card{
+        width: 50%;
+    }
+
+    .grid-section{
+        display: grid;
+        grid-template-rows: 0.5fr 1fr;
+        grid-template-columns: 1fr 0.5fr 0.5fr 1fr;
+        grid-template-areas: 
+        "logo logo logo logo"
+        "contacts links1 links2 socials";
+    }
+
+    .grid-section logo{
+        grid-area: logo;
+    }
+
+    .grid-section .contacts{
+        grid-area: contacts;
+    }
+
+    .grid-section .links-1{
+        grid-area: links1;
+    }
+    .grid-section .links-2{
+        grid-area: links2;
+    }
+    .grid-section .socials{
+        grid-area: socials;
+    }
+}
