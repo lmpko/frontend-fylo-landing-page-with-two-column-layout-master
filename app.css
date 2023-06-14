@@ -120,7 +120,7 @@ section{
     padding: 1.875rem;
     margin: 3.125rem  0;
     text-align: left;
-    background-color: antiquewhite;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: .3125rem;
 }
 
@@ -174,4 +174,30 @@ footer ul li{
 
 footer div{
     padding: 3.125rem;
+}
+
+.socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 15.3125rem;
+}
+
+.socials li{
+    border-radius: 50%;
+    border: .0625rem solid white;
+    width: 2.8125rem;
+    height: 1.5625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts li img{
+    padding-right: .625rem ;
+}
+
+button{
+    cursor: pointer;
 }
